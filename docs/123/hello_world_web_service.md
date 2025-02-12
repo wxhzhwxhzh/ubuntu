@@ -71,7 +71,7 @@ if __name__ == '__main__':
 python app.py
 ```
 
-此时，Flask 应用将在 `5000` 端口运行。你可以在浏览器中访问 [http://localhost:5000](http://localhost:5000) 来查看 "Hello World" 页面。
+此时，Flask 应用将在 `5000` 端口运行。你可以在浏览器中访问 http://localhost:5000  来查看 "Hello World" 页面。
 
 ## 8. 创建 `Dockerfile`
 
@@ -121,7 +121,7 @@ podman build -t hello-world-web .
 podman run -d -p 8080:5000 hello-world-web
 ```
 
-通过访问 [http://localhost:8080](http://localhost:8080) 来查看 "Hello World" 页面。
+通过访问 http://localhost:8080 来查看 "Hello World" 页面。
 
 ## 12. 停止和删除容器
 
