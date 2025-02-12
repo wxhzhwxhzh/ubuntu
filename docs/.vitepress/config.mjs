@@ -22,7 +22,6 @@ const nav_config = [
     items: [
       { text: '🥒使用手册', link: '/dp_helper/基本用法' },
       { text: '👑VIP版本', link: '/dp_helper/下载安装' },
-      { text: '🙂免费版本(7.9)', link: '/dp_helper/下载安装' },
     ]
   },
   {
