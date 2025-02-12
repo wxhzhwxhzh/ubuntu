@@ -28,8 +28,8 @@ const nav_config = [
     text: '💋知识点',
     items: [
       { text: '0.案例一', link: '/123/hello_world_web_service.md' },
-      { text: '1.DP官网', link: 'http://drissionpage.cn/' },
-      { text: '2.🐛虫盒', link: 'https://spiderbox.cn/' },
+      { text: '1.vitepress中文文档', link: 'https://vitepress.dev/zh/reference/default-theme-config/' },
+      { text: '2.秘塔AI搜索', link: 'https://metaso.cn/' },
 
       
     ]
