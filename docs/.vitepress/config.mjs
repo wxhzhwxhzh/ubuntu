@@ -118,6 +118,9 @@ const search_config = {
 
 // 网站配置
 var config = {
+  //跳过死链检查
+  ignoreDeadLinks: true,
+  //网站根目录
   base: "/ubuntu/",
   title: "ubuntu学习网站",
   description: "Asao VitePress Site",
@@ -156,3 +159,4 @@ var config = {
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig(config);
+
