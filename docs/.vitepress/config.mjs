@@ -25,24 +25,29 @@ const nav_config = [
     ]
   },
   {
-    text: '💋知识点',
+    text: '👑命令学习',
     items: [
       { text: '0.案例一', link: '/123/hello_world_web_service.md' },
-      { text: '1.vitepress中文文档', link: 'https://vitepress.dev/zh/reference/default-theme-config/' },
-      { text: '2.秘塔AI搜索', link: 'https://metaso.cn/' },
+      { text: 'apt命令帮助', link: '/123/apt命令帮助' },
+      { text: 'grep命令帮助', link: '/123/grep命令帮助' },
+      { text: 'history命令帮助', link: '/123/history命令帮助' },
+      { text: 'top命令帮助', link: '/123/top命令帮助' },
+      { text: 'venv命令帮助', link: '/123/venv命令帮助' },
+      { text: 'apt换源', link: '/123/apt换源' },
+      
 
       
     ]
   },
   {
-    text: '🥕动漫',
+    text: '🥕AI',
     items: [
 
-      { text: '凡人修仙传', link: 'https://www.bilibili.com/bangumi/play/ss28747?spm_id_from=333.337.0.0' },
-      { text: '牧神记', link: 'https://www.bilibili.com/bangumi/play/ss45969?spm_id_from=333.337.0.0' },
-      { text: '虎鹤妖师', link: 'https://www.bilibili.com/bangumi/play/ss45960?spm_id_from=333.337.0.0' },
-      { text: '斗罗大陆', link: 'https://v.qq.com' },
-      { text: '斗破苍穹', link: 'https://v.qq.com' },
+      { text: 'ChatGPT', link: 'https://chatgpt.com/' },
+      { text: '秘塔AI', link: 'https://metaso.cn/' },
+      { text: 'AOchatOS', link: 'https://chat18.aichatos68.com/#/chat/' },
+      { text: 'tongyiqianwen', link: 'https://tongyi.aliyun.com/' },
+   
 
     ]
   }
