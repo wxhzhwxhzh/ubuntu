@@ -6,7 +6,7 @@ const svgs = {
 }
 // 网页头部配置
 const head_config = [
-  ['link', { rel: 'icon', href: './fav1.ico' }],
+  ['link', { rel: 'icon', href: './favicon.ico' }],
   ['script', { src: 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js' }],
   ['script', { src: './js/bird.js' }],
 ];
