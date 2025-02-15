@@ -40,6 +40,7 @@ const nav_config = [
       { text: 'venv命令帮助', link: '/123/venv命令帮助' },
       { text: 'apt换源', link: '/123/apt换源' },
       { text: 'idm', link: '/123/idm' },
+      { text: 'ip', link: '/123/ip命令' },
       
 
       
