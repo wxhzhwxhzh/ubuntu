@@ -3,8 +3,8 @@
 layout: home
 
 hero:
-  name: "ubuntu"
-  text: "study ubuntu site"
+  name: "B站学习笔记"
+  text: "study B站学习笔记 site"
   tagline: My great project tagline
   actions:
     - theme: brand

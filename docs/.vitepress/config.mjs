@@ -15,13 +15,18 @@ const head_config = [
 // 导航栏配置
 const nav_config = [
   { text: '🏡Home', link: '/' },
-  { text: '🦜下载专区', link: '/download_zone/下载专区' },
-  { text: '🗡️法宝专区', link: '/download_zone/法宝专区' },
   {
-    text: '🍭浏览器插件',
+    text: '🦜B站小店',
     items: [
-      { text: '🥒使用手册', link: '/dp_helper/基本用法' },
-      { text: '👑VIP版本', link: '/dp_helper/下载安装' },
+      { text: '🥒升级指南', link: '/help/工坊升级/1.md' },
+      { text: '👑运营指南', link: '/help/0.md' },
+    ]
+  },
+  {
+    text: '🍭B站工坊',
+    items: [
+      { text: '🥒工坊商品下载指南', link: '/help/下载工坊商品/1.md' },
+      { text: '👑运营指南', link: '/help/0.md' },
     ]
   },
   {
@@ -47,6 +52,7 @@ const nav_config = [
       { text: '秘塔AI', link: 'https://metaso.cn/' },
       { text: 'AOchatOS', link: 'https://chat18.aichatos68.com/#/chat/' },
       { text: 'tongyiqianwen', link: 'https://tongyi.aliyun.com/' },
+      { text: 'KiMi', link: 'https://kimi.moonshot.cn/' },
    
 
     ]
@@ -126,7 +132,7 @@ var config = {
   ignoreDeadLinks: true,
   //网站根目录
   base: "/ubuntu/",
-  title: "ubuntu学习网站",
+  title: "B站学习网站",
   description: "Asao VitePress Site",
 
   // https://vitepress.dev/reference/default-theme-config
@@ -135,17 +141,17 @@ var config = {
   themeConfig: {
     logo: './logo/sao_logo.png',
     nav:nav_config,
-    sidebar: sidebar_config,
+    // sidebar: sidebar_config,
     // 设置搜索框的样式
     search: search_config,
 
     socialLinks: [
       { icon: { svg: svgs.gitee }, link: 'https://github.com/vuejs/vitepress' },
-      { icon: { svg: svgs.bilibili }, link: 'https://space.bilibili.com/48179703' },
+      { icon: { svg: svgs.bilibili }, link: 'https://space.bilibili.com/' },
     ],
     footer: {
-      message: '一个专门教学新手Drissionpage的网站.',
-      copyright: 'Copyright © 2023-saossionpage'
+      message: '一个B站学习的网站.',
+      copyright: 'Copyright © 2023-saoshen'
     },
     markdown: {
       theme: {
