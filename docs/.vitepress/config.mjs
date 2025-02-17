@@ -30,6 +30,13 @@ const nav_config = [
     ]
   },
   {
+    text: '传送门',
+    items: [
+      { text: '🥒MarkDown语法速查', link: 'https://markdown.com.cn/cheat-sheet.html#基本语法' },
+      { text: '🥒骚神网', link: 'https://wxhzhwxhzh.github.io/sao/' },
+    ]
+  },
+  {
     text: '👑命令学习',
     items: [
       { text: '0.案例一', link: '/123/hello_world_web_service.md' },
