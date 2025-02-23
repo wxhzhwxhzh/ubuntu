@@ -34,24 +34,27 @@ const nav_config = [
     items: [
       { text: '🥒MarkDown语法速查', link: 'https://markdown.com.cn/cheat-sheet.html#基本语法' },
       { text: '🥒骚神网', link: 'https://wxhzhwxhzh.github.io/sao/' },
+      { text: '🥒程序员速查表', link: 'https://code.itcent.cn/' },
     ]
   },
   {
     text: '👑命令学习',
     items: [
-      { text: '0.案例一', link: '/123/hello_world_web_service.md' },
-      { text: 'apt命令帮助', link: '/123/apt命令帮助' },
-      { text: 'grep命令帮助', link: '/123/grep命令帮助' },
-      { text: 'history命令帮助', link: '/123/history命令帮助' },
-      { text: 'top命令帮助', link: '/123/top命令帮助' },
-      { text: 'venv命令帮助', link: '/123/venv命令帮助' },
-      { text: 'apt换源', link: '/123/apt换源' },
-      { text: 'idm', link: '/123/idm' },
-      { text: 'ip', link: '/123/ip命令' },
-      
-
-      
-    ]
+      { text: '1.案例一', link: '/123/hello_world_web_service.md' },
+      { text: '2.apt命令帮助', link: '/123/apt命令帮助' },
+      { text: '3.grep命令帮助', link: '/123/grep命令帮助' },
+      { text: '4.history命令帮助', link: '/123/history命令帮助' },
+      { text: '5.top命令帮助', link: '/123/top命令帮助' },
+      { text: '6.venv命令帮助', link: '/123/venv命令帮助' },
+      { text: '7.apt换源', link: '/123/apt换源' },
+      { text: '8.idm', link: '/123/idm' },
+      { text: '9.ip', link: '/123/ip命令' },
+      { text: '10.JQuery', link: '/123/JQuery' },
+      { text: '11.npm', link: '/123/npm' },
+      { text: '12.quickref', link: '/123/quickref' },
+      { text: '13.chatgpt', link: '/123/chatgpt' },
+      { text: '14.vscode', link: '/123/vscode' },
+  ]
   },
   {
     text: '🥕AI',
