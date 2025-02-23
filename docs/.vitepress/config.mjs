@@ -54,6 +54,7 @@ const nav_config = [
       { text: '12.quickref', link: '/123/quickref' },
       { text: '13.chatgpt', link: '/123/chatgpt' },
       { text: '14.vscode', link: '/123/vscode' },
+      { text: '14.wechat', link: '/123/wechat' },
   ]
   },
   {
