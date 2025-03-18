@@ -56,6 +56,7 @@ const nav_config = [
       { text: '14.vscode', link: '/123/vscode' },
       { text: '15.wechat', link: '/123/wechat' },
       { text: '16.curl', link: '/123/curl' },
+      { text: '17.docker', link: '/123/docker' },
   ]
   },
   {
@@ -67,6 +68,7 @@ const nav_config = [
       { text: 'AOchatOS', link: 'https://chat18.aichatos68.com/#/chat/' },
       { text: 'tongyiqianwen', link: 'https://tongyi.aliyun.com/' },
       { text: 'KiMi', link: 'https://kimi.moonshot.cn/' },
+      { text: '各种换源', link: 'https://linuxmirrors.cn/other/' },
    
 
     ]
